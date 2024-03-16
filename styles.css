@@ -32,7 +32,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* service, testimonial title */
+.prod-shop{
+  margin: 55px;
+  text-align: center;
+
+}
+
 .section__subheader {
   margin-left: 03px;
   margin-bottom: 0.5rem;
@@ -44,6 +49,15 @@
 }
 
 .section__header {
+  margin: 0; /* Reset margin */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  font-family: 'Lato', sans-serif; /* Use the desired font family */
+  color: var(--primary-color); /* Use the desired color */
+  display: inline-block; /* Add this to make the element respect text-align:center */
+}
+
+/* .section__header {
   max-width: 450px;
   margin-inline: auto;
   font-size: 2.5rem;
@@ -51,7 +65,11 @@
   font-family: var(--header-font);
   color: var(--text-dark);
   line-height: 3rem;
-}
+} */
+
+/* .section__header h2{
+ align-items: center;
+} */
 
 .section__description {
   max-width: 450px;
@@ -136,11 +154,11 @@ nav {
   justify-content: space-between;
   background-color: rgb(177, 148, 192);
 }
-
+/* 
 .prod-shop{
   margin: 55px;
   text-align: center;
-}
+} */
 .logo a {
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
@@ -396,7 +414,9 @@ nav {
     }
   
     .buttons {
+      /* position: fixed; */
       position: absolute;
+      /* position: relative; */
       bottom: 30px;
       z-index: 222222;
       text-align: center;
