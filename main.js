@@ -103,7 +103,7 @@ Array.from(banner.children).forEach((item) => {
 });
 
 // const banner = document.querySelector(".banner__wrapper");
-// const slid = document.querySelector(".slid__wrapper");
+// const slide = document.querySelector(".slid__wrapper");
 
 document.getElementById('next').onclick = function(){
   let lists = document.querySelectorAll('.item');
