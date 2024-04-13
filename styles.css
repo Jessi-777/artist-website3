@@ -199,7 +199,8 @@ nav {
   display: flex;
   overflow: hidden;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
+  /* try without above */
   flex-direction: column;
   gap: 2rem;
   z-index: -1;
