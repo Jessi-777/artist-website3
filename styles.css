@@ -75,10 +75,15 @@
   max-width: 450px;
   margin-block: 1rem;
   margin-inline: auto;
-  color: rgb(49, 49, 61);
+  /* color: rgb(49, 49, 61); */
+  color: #1e1c1b;
   font-family: "Merriweather", serif;
  
 }
+
+/* p.section__description {
+  color: #030202;
+} */
 
 .btn {
   padding: 0.75rem 1.5rem;
@@ -888,6 +893,7 @@ nav {
   .section__header,
   .section__description {
     margin-inline-start: unset;
+    /* color: #1e1c1b; */
   }
 /* ------ */
   nav {
