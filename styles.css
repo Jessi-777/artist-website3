@@ -10,12 +10,13 @@
   /* font-family: "Roboto Condensed", sans-serif; */
   /* font-family: "Cinzel", serif; */
   font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 
 }
 :root {
   --primary-color: #16181a;
   --primary-color-light: #30353a;
-  --text-dark: #6d5573;
+  --text-dark: #262427;
   --text-light: #1e1c1b;
   --extra-light:  #2d2925;
   --white: #f2f0ec;
@@ -79,6 +80,7 @@
   margin-block: 1rem;
   margin-inline: auto;
   color: #1e1c1b;
+  /* font-family: 'Lato', sans-serif; */
   /* font-family: "Merriweather", serif; */
   /* font-family: "Montserrat", sans-serif; */
  
@@ -148,6 +150,8 @@ nav {
 
 .hero { 
   background-image: url("assets/header.jpg"); 
+  /* width: 200px; */
+  height: 380px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
