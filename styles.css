@@ -568,6 +568,48 @@ nav {
   font-family: var(--header-font);
   color: var(--primary-color-light);
 } */
+/* .store-link {
+  font-size: 20px; /
+  font-weight: bold; 
+}  */
+
+#product-list {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-item h3 {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.product-item p {
+  font-size: 0.9em;
+  color: #333;
+}
+
 
 .client__container {
   /* display: grid; */
