@@ -183,7 +183,7 @@ nav {
 .hero { 
   background-image: url("assets/header.jpg"); 
   /* width: 200px; */
-  height: 280px;
+  height: 380px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
