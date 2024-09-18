@@ -1,8 +1,10 @@
-/* @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -43,7 +45,6 @@
   display: flex;
   justify-content: center; /* Horizontally centers the content */
   align-items: center; /* Vertically centers the content */
-
   flex-direction: column; /* Stack content vertically */
 }
 
@@ -93,25 +94,48 @@
   margin-inline: auto;
   color: #1e1c1b;
   visibility: visible;
+  display: block; /* Ensure it's displayed by default */
+  opacity: 1; /* Ensure full opacity */
+
   
 }
+/* Adjusted media query */
+
+@media only screen and (max-width: 768px) {
+  .section__description {
+    display: block; /* Ensure it is not hidden */
+    margin: 10px 0; /* Adjust margin if needed */
+    visibility: visible; /* Ensure visibility */
+    opacity: 1; /* Ensure full opacity */
+    /* Consider adding more styles for mobile if needed */
+  }
+
+  .offer__content {
+    flex-direction: column; /* Stack elements vertically for mobile */
+  }
+
+  .offer__image img {
+    width: 100%; /* Ensure the image resizes properly */
+  }
+}
+
+
 /* ----------------------------------------- */
 /* CSS for fade-in animation */
-@keyframes fadeIn {
+ @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-}
+} 
 
-/* .offer__content {
+.offer__content {
 
   opacity: 0;
-
   animation: fadeIn 1s ease-in-out forwards;
-} */
+}
 
 
 .btn {
@@ -248,6 +272,11 @@ nav {
   transform: translateY(-5px) scale(1.1);
 }
 
+
+
+
+
+
 .header__container {
   padding-block: 6rem;
 }
@@ -261,9 +290,6 @@ nav {
   color: #faf9f8;
   margin: 25px;
 }
-
-
-
 
 .hero.section__container.header__container {
   display: flex;
@@ -380,7 +406,6 @@ nav {
   /* gap: 2rem; */
   align-items: center;
   text-align: center; 
-  /* grid-template-columns: repeat(3, 1fr); */
 }
 
 .client__image{
@@ -672,7 +697,7 @@ nav {
   text-align: center;
 }
 
-@media (width> 540px) {
+@media (width> 768px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
   }
