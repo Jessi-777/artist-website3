@@ -7,12 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: "Roboto Condensed", sans-serif; */
-  /* font-family: "Cinzel", serif; */
   font-family: "Montserrat", sans-serif;
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: 'Lato', sans-serif; */
-
 }
 :root {
   --primary-color: #16181a;
@@ -23,7 +18,7 @@
   --white: #f2f0ec;
   --max-width: 1200px;
   --header-font: "Roboto Condensed", sans-serif;
-    /* font-family: "Montserrat", sans-serif; */
+
 }
 
 .section__container {
@@ -40,7 +35,6 @@
 .prod-shop{
   margin: 55px;
   text-align: center;
-
 }
 
  /* -----hero product button START ----- */
@@ -98,7 +92,7 @@
   margin-block: 1rem;
   margin-inline: auto;
   color: #1e1c1b;
-  visibility: false;
+  visibility: visible;
   
 }
 /* ----------------------------------------- */
@@ -252,7 +246,6 @@ nav {
   color: #795d9c;
   transition: all 0.6s;
   transform: translateY(-5px) scale(1.1);
-  /* background: linear-gradient(135deg, #e2b9d1, #ae473c); */
 }
 
 .header__container {
@@ -276,16 +269,11 @@ nav {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  /* flex: center; */
-  
 }
 
 .nav__btns {
   text-align: center;
 }
-
-
-
 
 .offer__container {
   display: grid;
@@ -345,8 +333,8 @@ nav {
     /*------------- SLIP START -------------*/
 
 .prod-shop {
-  padding: 40px; /* Adjust padding as needed */
-  text-align: center; /* Center text and button content */
+  padding: 40px;
+  text-align: center; 
 }
 
 .prod-shop .section__subheader {
@@ -710,9 +698,6 @@ nav {
 
 
   .prod__btns .btn {
-    /* width: 100%;  */
-    /* max-width: 300px;  */
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -753,11 +738,6 @@ nav {
     gap: 2rem;
   }
 
-  /* .nav__header {
-    flex: 1;
-    padding: 0;
-    background-color: transparent;
-  } */
 
   .nav__menu__btn {
     display: none;
