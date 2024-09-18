@@ -106,12 +106,12 @@
   }
 }
 
-.offer__content {
-  /* Apply initial opacity to hide the text */
+/* .offer__content {
+
   opacity: 0;
-  /* Use animation to fade in the text */
+
   animation: fadeIn 1s ease-in-out forwards;
-}
+} */
 
 
 .btn {
@@ -722,10 +722,7 @@ nav {
 }
 
 }
-
-
-
-  }
+}
 /* ------ */
   nav {
     position: static;
