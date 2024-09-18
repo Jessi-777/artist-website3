@@ -109,14 +109,24 @@ img {
 .section__description {
   max-width: 450px;
   margin-block: 1rem;
-  margin-inline: auto;
   color: #1e1c1b;
   visibility: visible;
+  margin-inline: auto;
   display: block; /* Ensure it's displayed by default */
+  text-align: center; /* Center text inside the element */
 
 
   
 }
+p.section__description {
+  max-width: 450px;
+  margin-block: 1rem;
+  color: #1e1c1b;
+  visibility: visible;
+  margin-inline: auto;
+  display: block; /* Ensure it's displayed by default */
+  text-align: center; /* Center text inside the element */
+}  
 /* Adjusted media query */
 
 @media only screen and (max-width: 768px) {
@@ -125,8 +135,6 @@ img {
     visibility: visible;
     opacity: 1;
   }
-
-
 
   .offer__content {
     flex-direction: column; /* Stack elements vertically for mobile */
