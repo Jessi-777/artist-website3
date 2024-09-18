@@ -52,10 +52,28 @@
   text-align: center; /* Ensures the button is centered */
 }
 
-.btn {
+/* .btn {
   padding: 5px 10px;
   border-radius: 5px;
   border: none;
+} */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #805b79, #a3449c);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #9b6e9e, #9a68ac);
+}
+
+img {
+  display: flex;
+  width: 100%;
 }
 
 .btn a {
@@ -95,7 +113,7 @@
   color: #1e1c1b;
   visibility: visible;
   display: block; /* Ensure it's displayed by default */
-  opacity: 1; /* Ensure full opacity */
+
 
   
 }
@@ -103,12 +121,12 @@
 
 @media only screen and (max-width: 768px) {
   .section__description {
-    display: block; /* Ensure it is not hidden */
-    margin: 10px 0; /* Adjust margin if needed */
-    visibility: visible; /* Ensure visibility */
-    opacity: 1; /* Ensure full opacity */
-    /* Consider adding more styles for mobile if needed */
+    margin: 10px 0;
+    visibility: visible;
+    opacity: 1;
   }
+
+
 
   .offer__content {
     flex-direction: column; /* Stack elements vertically for mobile */
@@ -133,7 +151,7 @@
 
 .offer__content {
 
-  opacity: 0;
+  /* opacity: 0; */
   animation: fadeIn 1s ease-in-out forwards;
 }
 
@@ -509,7 +527,6 @@ nav {
   padding: 5px 10px;
   font-display: 1.25rem;
  color: #9f9fb7;
-  /* background:-webkit-linear-gradient(top, rgb(135, 83, 141) 35%, rgb(146, 103, 144) 45%, rgb(128, 83, 122) 61%, rgb(110, 83, 106) 100%);  background: -o-linear-gradient(transparent, transparent); */
   background: linear-gradient(135deg, #805b79, #a3449c);
   transition: 0.3s;
   cursor: pointer;
@@ -520,9 +537,6 @@ nav {
   background-color: var(--primary-color);
 }
 /* ------------- BANNER START ------------- */
-/* .banner {
-  overflow: hidden;
-} */
 
 .banner__wrapper {
   width: max-content;
@@ -707,7 +721,7 @@ nav {
   }
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
   .section__header,
   .section__description {
     margin-inline-start: unset; */
