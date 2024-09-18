@@ -102,6 +102,7 @@ img {
   font-family: 'Lato', sans-serif; /* Use the desired font family */
   color: var(--primary-color); /* Use the desired color */
   display: inline-block; /* Add this to make the element respect text-align:center */
+  margin-bottom: 1rem;
 }
 
 
@@ -138,6 +139,7 @@ p.section__description {
 
   .offer__content {
     flex-direction: column; /* Stack elements vertically for mobile */
+    text-align: center
   }
 
   .offer__image img {
